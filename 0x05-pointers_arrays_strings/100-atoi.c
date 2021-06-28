@@ -22,5 +22,5 @@ for (; s[a] != '\0' && s[a] != ';'; a++)
 if (s[a] >= '0' && s[a] <= '9' && s[a] != '\0')
 b = b * 10 + (s[a] - '0');
 }
-return (b * prefix);
+return (b *prefix);
 }
